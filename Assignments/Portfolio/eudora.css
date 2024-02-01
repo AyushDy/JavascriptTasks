@@ -1,0 +1,33 @@
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
+
+body{
+  height: 1450px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.main{
+    /* border: 2px solid yellowgreen; */
+     height: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1200px;
+
+  
+}
+
+
+
+
+
+
+
+

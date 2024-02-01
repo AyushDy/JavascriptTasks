@@ -1,0 +1,100 @@
+  .about-container{
+    border: 1px solid;
+     height: 1350px;
+     width: 900px;
+     margin-left: 25PX;
+     border-radius: 22px;
+     position: relative;
+  }
+
+  .about-me{
+    /* border: 2px solid red; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .what-im-doing{
+    /* border: 2px solid blue; */
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+
+  .aboutme-head{
+    /* border: 1px solid wheat; */
+    /* border: 2px solid ; */
+    height: 70px;
+    font-size: 150%;
+    width: 870px;
+  }
+  .aboutme-content{
+    height: 70px;
+    width: 830px;
+  }
+  
+
+  .aboutme-head > h1{
+    margin-left: 20px;
+  }
+
+
+  #about-hr{
+    width: 50px;
+    height: 6px;
+    border-radius: 10px;
+}
+
+.hr{
+  display: flex;
+  /* border: 1px solid yellow; */
+  width: 860px;
+  height: 40px;
+}
+
+
+.doing-items-container{
+  /* border: 1px solid red; */
+  display: flex;
+  height: 440px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.doing-items-box{
+  /* border: 1px solid pink; */
+  height: 200px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.doing-header{
+  /* border: 1px solid wheat; */
+  /* border: 2px solid ; */
+  height: 70px;
+  font-size: 130%;
+  width: 865px;
+  margin-bottom: 20px;
+}
+
+.doing-items-icon{
+  /* border: 1px solid pink; */
+  height: 100px;
+  width: 80px;
+  font-size: 50px;
+  text-align: right;
+  align-self: center;
+}
+.doing-items-content{
+  /* border: 1px solid aqua; */
+  width: 280px;
+  height: 170px;
+  margin-left: 20px;
+}

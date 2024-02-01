@@ -1,0 +1,97 @@
+:root{
+    --backcolor: #252526;
+    --pricolor: #404041;
+    --seccolor: #e8772c;
+    --textcolor: #dad9d9;
+}
+
+*{
+    color: var(--textcolor);
+}
+
+*::selection{
+  background-color: var(--seccolor);
+    
+}
+
+body{
+    background-color: var(--backcolor);
+    scrollbar-color:var(--seccolor);
+}
+
+.side, .about-container{
+    background-color: var(--pricolor);
+    border-color: var(--seccolor);
+}
+
+#icon1, #icon2, #icon3, #icon4,#icon5,#icon6,#icon7,#icon8{
+    color: var(--seccolor);
+}
+.year{
+    background-color:var(--backcolor) ;
+}
+
+hr{
+    border: none;
+    background-color: var(--seccolor);
+    height: 1px;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: var(--backcolor);
+  }
+
+  ::-webkit-scrollbar-track{
+    margin-block: 60px;
+   
+  }
+
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--pricolor);
+    border-radius: 10px;
+    border:1px solid #616161;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:#515151 ;
+}
+.contact-icon{
+    background-color: var(--backcolor);
+}
+
+#soc1:hover, #soc2:hover, #soc3:hover{
+  color: azure;
+}
+
+#about-hr{
+    color: var(--seccolor);
+    width: 50px;
+    height: 6px;
+  
+    left: 30px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.doing-items-box{
+    background-color: var(--backcolor);
+}
+
+.testimonials-box{
+    background-color: var(--backcolor);
+}
+
+#side-media{
+    background-color: var(--pricolor);
+    border-color: var(--seccolor)
+}
+
+.testimonials{
+    background-color: var(--pricolor);
+    border-color: var(--seccolor);
+}
+
+#forced{
+    border-color: var(--seccolor);
+}

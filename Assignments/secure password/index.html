@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password validation</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+
+</head>
+<body>
+    <div><form id="form1">
+        <label for="number" >Enter a number (3~10 digits)</label>
+        <input id="number" style="border-color: #a4a4a4;" type="text">
+        
+        <label for="password" >Enter your password</label>
+        <input type="password" style="border-color: #9e9e9e;" id="password">
+        <input type="checkbox"  id="showPassword">Show password
+        <input type="submit" id="submit" value="submit">
+    </form>
+    <div class="info">
+        <ul><p id="head">The password needs the following optimisation(s):</p>
+            <li id="item" style="display: '';">Must not contain spaces.</li>
+            <li id="item1" style="display: '';">At least one lowercase alphabet (a,b,c...).</li>
+            <li id="item2" style="display: '';">At least one uppercase alphabet (A,B,C,..).</li>
+            <li id="item3" style="display: '';">At least one number (1,2,3,..).</li>
+            <li id="item4" style="display: '';">At least one spacial character (!,@,#,..).</li>
+            <li id="item5" style="display: '';">Minimun length should be 8.</li>
+        </ul>
+    </div>
+
+</div>
+
+    
+
+
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        body{
+            margin:0;
+            background-color: #313131;
+        }
+        
+        .container{
+            /* border: 1px solid; */
+            height: 100vh;
+            width: 100vw;
+            /* display:none; */
+            background-image: url(https://i.gifer.com/WBVi.gif);
+            
+          }
+
+        .col{
+            /* border: 1px solid blue; */
+            text-align: center;
+            width: 100vw;
+        }
+        #gif1{
+            height: 20vh;
+        }
+
+        .jiggle {
+         animation: jiggle 0.2s ease-in-out 1.5;
+        } 
+
+        .whee{
+            box-shadow: 0 0 5px orange;
+        }
+
+
+        .row{
+            width: 100vw;
+          
+        }
+
+        @keyframes shining{
+            to{
+                background-position: 200% 0;
+            }
+        }
+        @keyframes jiggle {
+          0%, 100% {
+            transform: translateX(0);
+          }
+          25%, 75% {
+            transform: translateX(-5px);
+          }
+          50% {
+          transform: translateX(5px);
+         }
+        }
+
+
+
+        .shine{
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+            background: linear-gradient(45deg, #000000, #ffffff,#000000);
+            background-size: 200% ;
+            animation: shining 2s linear infinite;
+        }
+        .header{
+            background: linear-gradient(150deg, #313131,#313131, #ffffff,#313131,#313131);
+            background-size: 200% ;
+            animation: shining 2s linear infinite;
+            border-radius: 20px;
+            border: 3px solid orange;
+            padding :10px;
+       
+        }
+
+        .button{
+            background-color: rgb(0, 0, 0);
+            height: 20vh;
+            border: 20px solid white;
+            box-shadow: 0 0 9px rgb(91, 91, 91) ;
+            border-radius: 50%;
+            width: 20vh;
+            margin: auto;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            color: white;
+        }
+
+        .button-mid{
+            background-color: #ffffff;
+            margin-left: 30%;
+            margin-top: 38%;
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            transform: rotate(90deg);
+            height: 6vh;
+            width: 9vh;
+        }
+
+        .button:hover{
+            background-color: #313131;
+            transform: rotate(360deg);
+        }
+
+        .button:active{
+            height: 19vh;
+            width: 19vh;
+            box-shadow: 0 0 18px rgb(91, 91, 91) ;
+        }
+        .main{
+            /* border: 1px solid; */
+            margin: 0;
+            height: 90vh;
+            width: 100vw;
+            
+            display: inherit;
+        }
+
+        .main{
+            background-image: url(https://i.gifer.com/WBVi.gif);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ul{
+            list-style: none;
+            /* border: 1px solid; */
+        }
+
+        li{
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #000000;
+            border-radius: 50%;
+            margin-right: 25px;
+            margin-top: 20%;
+        }
+
+
+        
+
+        #field{
+            width: 20px;
+            margin-top: 2%;
+            height: 20px;
+            padding: 30px;
+            border-radius: 30%;
+            box-shadow: 0 0 8px;
+            border: 2px solid orange;
+            color: rgb(0, 0, 0);
+        }
+
+
+
+        label{
+            margin-top: 10%;
+
+        }
+
+        .guess-button{
+            background-color: rgb(255, 155, 4);
+            margin-top: 50px;
+            padding: 15px;
+            width: 90px;
+            border-radius: 200px;
+            box-shadow: 0 0 16px black;
+            cursor: pointer;
+            color: #ffffff;
+            
+        }
+
+        .guess-button:hover{
+            box-shadow: 0 0 8px black;
+        }
+
+        .guess-button:active{
+            
+            padding: 14px;
+        }
+
+        .wrong-list{
+            margin-top: 20px;
+            height: 20px;
+            width: 200px;
+            text-align: center;
+        }
+
+        #st1{
+            font-size: 10vh;
+        }
+
+        .word-guessed{
+            font-size: 5vh;
+            color: white;
+        }
+
+        .next{
+            padding: 20px;
+            background-color: rgb(255, 184, 53);
+            border: none;
+            border-radius: 20px;
+            color: white;
+            box-shadow: 0 0 16px black;
+            margin-left: 80px;
+        }
+
+        .next:hover{
+            box-shadow: 0 0 8px black;
+        }
+        .next:active{
+        padding: 19px;
+        box-shadow: black;
+        }
+
+        .congrats{
+            color: #313131;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            font-size: 10vw;
+            background-color: #ffe0f2;
+            padding: 30px;
+            /* border: 1px solid white; */
+            background-image: url(https://i.gifer.com/2iFb.gif);
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+
+        @media(min-width:900px){
+            .congrats{
+                font-size: 50px;
+            }
+
+        }
+
+        .game-over{
+            background-color: #313131;
+            background-image: url(https://i.gifer.com/VeC.gif);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+
+        }
+        .reload{
+            padding: 20px;
+            background-color: orange;
+            border-radius:10px;
+            color: white;
+
+        }
+        .reload:hover{
+            background-color: rgb(202, 132, 2);
+        }
+
+        .reload:active{
+            padding:19px;
+        }
+
+        .won{
+            background-image: url(https://i.gifer.com/ATEd.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: whitesmoke;
+        }        
