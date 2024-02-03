@@ -18,7 +18,7 @@ for(let i=0;i<totalItems;i++){
 };
 
 
-const pageCnt= Math.ceil(totalItems/itemsPerPage);
+let pageCnt= Math.ceil(totalItems/itemsPerPage);
 
 function showItems(){
     const itemsContainer= document.querySelector('.container');
