@@ -167,6 +167,7 @@ dropDown.addEventListener('change',function(event){
     pageCnt= Math.ceil(totalItems/itemsPerPage);
     paginationButtons();
     showItems();
+    
 
 })
 
