@@ -164,6 +164,7 @@ function addGotoLast(){
 
 dropDown.addEventListener('change',function(event){
     itemsPerPage= parseInt(dropDown.value);
+    pageCnt= Math.ceil(totalItems/itemsPerPage);
     paginationButtons();
     showItems();
 
