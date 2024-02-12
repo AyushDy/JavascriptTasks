@@ -90,12 +90,10 @@ document.querySelector('.refresh').addEventListener('click',()=>{
      location.reload();
 })
 
-document.getElementById('fromSearch').addEventListener('keyup', function () {
-    filterOptions(this, fromTimeZone);
-});
+mainSearch.addEventListener('keyup', function () {
+    filterOptions(mainSearch, fromTimeZone);
+    filterOptions(mainSearch, toTimeZone);
 
-document.getElementById('toSearch').addEventListener('keyup', function () {
-    filterOptions(this, toTimeZone);
 });
 
 function getGMTOffset(timeZone) {
